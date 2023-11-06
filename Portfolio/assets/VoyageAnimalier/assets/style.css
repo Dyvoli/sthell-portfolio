@@ -1,0 +1,173 @@
+:root {
+    --font1: "Wix Madefor Display";
+    --font2: "Onest";
+    scroll-padding-top: 0px;
+    scroll-behavior: smooth;
+}
+::selection {
+    background: rgb(255, 245, 167);
+    color: #663b04;
+}
+.ctaBtn {
+    cursor: pointer;
+    padding: 5px 8px;
+    font-size: 1.5rem;
+    background: #ffdbac;
+    transition: .2s ease;
+}
+.ctaBtn:hover {
+    cursor: pointer;
+    padding: 5px 8px;
+    font-size: 1.5rem;
+    background: #ffdbac;
+    transform: scale(1.1);
+}
+*,a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; 
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Onest";
+}
+a {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #ffdbac;
+}
+body {
+    background: #d78110;
+}
+/* ################################### */
+/* ######   Settings Global  ######## */
+/* ################################### */
+/* -------------------------------------------------------- */
+/* ################################### */
+/* ######   Header  ######## */
+/* ################################### */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    color: #ffdbac;
+    background: #d78110;
+    z-index: 10;
+}
+nav  {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0 18px;
+}
+.btnMainCtner {
+    user-select: none;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 1.9rem;
+    padding: 5px 8px;
+    transition: .2s ease;
+}
+.btnMainCtner:hover {
+    color: #ffdbac;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 1.9rem;
+    padding: 5px 8px;
+    transition: .2s ease;
+    background: #d78110;
+    transform: scale(1.1);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+}
+.main-container p {
+    font-size: 1.2em;
+    color: white;
+}
+.main-container h1 {
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+.main-container span {
+    font-size: 2.9rem;
+    color: rgb(246, 183, 121);
+}
+main img {
+    user-select: none;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-position: bottom/cover;
+    filter: brightness(0.2);
+}
+/* -------------------------------------------------------- */
+/* ################################### */
+/* ######   Body (Section)  ######## */
+/* ################################### */
+section {
+    padding: 40px 10%;
+    text-align: center;
+}
+.apropos h2 {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+.apropos-container img {
+    user-select: none;
+    cursor: pointer;
+    margin: 0 15px;
+    width: 415px;
+    height: 450px;
+    object-fit: cover;
+    transition: .2s ease;
+    border-radius: 25px;
+}
+.apropos-container img:hover {
+    transform: scale(1.1);
+}
+.apropos-container {
+    padding: 135px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.apropos-container article{
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.apropos-content {
+    padding: 60px 30px;
+}
+.apropos-content h2 {
+    font-size: 1.9rem;
+}
+.apropos-content article h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: var(--font1);
+}
+
+.apropos-container p {
+    font-size: 1.2rem;
+    text-align: left;
+}
