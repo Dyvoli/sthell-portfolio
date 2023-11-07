@@ -1,0 +1,53 @@
+:root {
+    --font1: "Wix Madefor Display";
+    --font2: "Onest";
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+}
+::selection {
+    background: rgb(255, 245, 167);
+    color: #663b04;
+}
+.ctaBtn {
+    cursor: pointer;
+    padding: 5px 8px;
+    font-size: 1.5rem;
+    background: #ffdbac;
+    transition: .2s ease;
+}
+.ctaBtn:hover {
+    cursor: pointer;
+    padding: 5px 8px;
+    font-size: 1.5rem;
+    background: #ffdbac;
+    transform: scale(1.1);
+}
+*,a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; 
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Onest";
+}
+a {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #ffdbac;
+}
+body {
+    overflow-x: hidden;
+    background: #d78110;
+}
+header {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 45px;
+    text-align: center;
+}
+span {
+    font-size: 2.9rem;
+    color: #ffd296;
+}

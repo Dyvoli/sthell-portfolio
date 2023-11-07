@@ -1,7 +1,7 @@
 :root {
     --font1: "Wix Madefor Display";
     --font2: "Onest";
-    scroll-padding-top: 0px;
+    scroll-padding-top: 100px;
     scroll-behavior: smooth;
 }
 ::selection {
@@ -38,6 +38,7 @@ a {
     color: #ffdbac;
 }
 body {
+    overflow-x: hidden;
     background: #d78110;
 }
 /* ################################### */
@@ -145,7 +146,7 @@ section {
     transform: scale(1.1);
 }
 .apropos-container {
-    padding: 135px 15px;
+    padding: 115px 15px;
     display: flex;
     justify-content: space-around;
 }
@@ -171,3 +172,103 @@ section {
     font-size: 1.2rem;
     text-align: left;
 }
+.merveilles h2 {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+.merveilles-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.merveilles-container img {
+    user-select: none;
+    cursor: pointer;
+    margin: 0 15px;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    transition: .2s ease;
+    border-radius: 25px;
+}
+.merveilles-content {
+    padding: 60px 30px;
+}
+.merveilles-content h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+.merveilles-content article {       
+    padding: 50px 0;
+    line-height: 35px;
+    text-align: left;
+}
+.galery h2 {
+    padding: 0 0 70px 0;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+.galery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.galery-container img {
+    user-select: none;
+    cursor: pointer;
+    margin: 0 15px;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    transition: .2s ease;
+    border-radius: 25px;
+}
+.galery-content {
+    padding: 70px 30px;
+}
+.galery-content h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+.galery-content article {       
+    padding: 50px 0;
+    line-height: 35px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+.image-container {
+    width: 100%; /* Ajustez la taille du conteneur selon vos besoins */
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .zoom-image {
+    width: 20%; /* Ajustez la taille initiale de l'image */
+    transition: transform .2s ease-in-out; /* Durée de l'animation et courbe d'accélération */
+    animation: zoomInOut 5s infinite alternate; /* Animation de zoom-in et zoom-out */
+  }
+  
+ /*  @keyframes zoomInOut {
+    0% {
+      transform: scale(1); Aucun zoom, taille initiale 
+      filter: brightness(1);
+    }*/
+     /*50% {
+      transform: scale(1.2); Zoom-in, ajustez le facteur de zoom selon vos besoins 
+      filter: brightness(0.9);
+    }*/
+     /* 100% {
+    transform: scale(1);  Retour au zoom initial
+      filter: brightness(0.5);
+    }
+  }  /*

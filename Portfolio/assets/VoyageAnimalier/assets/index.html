@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voyage Animalier</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
@@ -23,20 +25,20 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#merveilles">
                         Merveilles de la Faune
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#galery">
                         Galerie
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="">
                         contact
                     </a>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </header>
@@ -44,7 +46,9 @@
         <div class="main-container">
             <h1>Découvrez les <span>10</span> Merveilles de la <span>faune sauvage !</span></h1>
             <p>Je vous souhaite un jolie voyage et une bonne documentation !</p>
+            <a href="#apropos">
                 <button class="btnMainCtner">Commencer</button>
+            </a>
         </div>
         <img src="./img/img-header.jpg" alt="">
     </main>
@@ -54,27 +58,95 @@
                 <h2>à propos</h2>
             </div>
             <div class="apropos-container">
-                <img src="./img/lion-about.jpg" alt="" title="Mufasa vous souhaite la bienvenue (KRRRRR, KRRRRR)">
+                <img class="zoom-image" src="./img/lion-about.jpg" alt=""
+                    title="Mufasa vous souhaite la bienvenue (KRRRRR, KRRRRR)">
                 <div class="apropos-content">
                     <h2>Bienvenue sur <span>Voyage Animalier</span></h2>
                     <article>
-                        <p>Ce site a été réalisé au cours de mon auto-apprentissage de Web Developer. J'ai mis en pratique mes compétences pour créer un espace en ligne où je peux partager ma passion ( caché ) avec vous.</p>
+                        <p>Ce site a été réalisé au cours de mon auto-apprentissage de Web Devloper. J'ai mis en
+                            pratique mes compétences pour créer un espace en ligne où je peux partager ma passion (
+                            caché ) avec vous.</p>
                     </article>
                     <article>
-                        <p> <p>Je vous souhaite un excellent voyage à travers ce site, où vous découvrirez des informations fascinantes sur la faune sauvage, des photos époustouflantes et des histoires inspirantes.</p></p>
+                        <p>
+                        <p>Je vous souhaite un excellent voyage à travers ce site, où vous découvrirez des informations
+                            fascinantes sur la faune sauvage, des photos époustouflantes et des histoires inspirantes.
+                        </p>
+                        </p>
                     </article>
                     <article>
-                        <p>Si vous êtes des passionnés d'animaux sauvages, vous êtes au bon endroit ! Explorez nos articles détaillés, visionnez nos vidéos captivantes et plongez-vous dans l'univers incroyable de la nature.</p>
+                        <p>Si vous êtes des passionnés d'animaux sauvages, vous êtes au bon endroit ! Explorez nos
+                            articles détaillés, visionnez nos vidéos captivantes et plongez-vous dans l'univers
+                            incroyable de la nature.</p>
                     </article>
-                    <button class="ctaBtn">Explorez davantage !</button>
+                    <a href="#merveilles">
+                        <button class="ctaBtn">Explorez davantage !</button>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="dark" id="merveilles"></div>
+        <div class="dark" id="merveilles">
+            <div class="merveilles">
+                <h2>Merveilles de la Faune</h2>
+            </div>
+            <div class="merveilles-container">
+                <div class="merveilles-content">
+                    <h2>Découvrez les Trésors Cachés de la Faune Mondiale</h2>
+                    <article>
+                        <p>Ici, vous embarquerez pour un voyage extraordinaire à travers les recoins les plus fascinants
+                            de la faune mondiale. Explorez la diversité incroyable de notre planète et découvrez des
+                            trésors cachés que la nature a à offrir.</p>
+
+                        <p>De la majesté des grands prédateurs aux créatures minuscules qui peuplent les écosystèmes les
+                            plus éloignés, vous trouverez des récits passionnants, des images à couper le souffle et des
+                            informations captivantes sur la vie sauvage. Que vous soyez un amoureux des animaux ou un
+                            aventurier curieux, notre collection de merveilles de la faune saura vous émerveiller.</p>
+
+                        <p>Préparez-vous à plonger dans le monde secret des créatures de la terre, de l'air et de l'eau.
+                        </p>
+                    </article>
+                    <a href="#galery">
+                        <button class="ctaBtn">Merveille de la Faune !</button>
+                    </a>
+                </div>
+                <img class="fadeOut" src="./img/illustrate.jpg" alt=""
+                    title="Hathi vous souhaite une bonne découverte (brrroa, brrroa)">
+            </div>
+        </div>
+        <div class="dark" id="galery">
+            <div class="galery">
+                <h2>Galerie</h2>
+            </div>
+            <div class="galery-container">
+                <img class="fadeOut" src="./img/illustrate.jpg" alt=""
+                    title="Hathi vous souhaite une bonne découverte (brrroa, brrroa)">
+                <div class="galery-content">
+                    <h2>Explorez la Beauté de la Faune en Images</h2>
+                    <article>
+                        <p>Notre galerie vous offre une chance unique de plonger au cœur de la faune mondiale. Découvrez la beauté
+                            de la nature à travers une collection d'images époustouflantes capturant des moments rares et
+                            spectaculaires.</p>
+            
+                        <p>Des portraits saisissants d'animaux majestueux aux clichés de la vie quotidienne des créatures les plus
+                            surprenantes, notre galerie est un trésor visuel qui vous transportera dans des mondes lointains et
+                            inexplorés.</p>
+            
+                        <p>Que vous soyez un passionné de photographie animalière ou simplement en quête d'inspiration, plongez dans
+                            cette collection exceptionnelle et laissez-vous émerveiller par la diversité et la grâce de la faune
+                            sauvage.</p>
+                    </article>
+                    <a href="./pages/galery.html" target="_blank">
+                        <button class="ctaBtn">Voir la Galerie</button>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
         <div class="light" id="contact"></div>
     </section>
-    
+
 
     <script src="app.js"></script>
 </body>
+
 </html>
