@@ -4,8 +4,8 @@ let closeModal = document.getElementById('closeModal')
 let showOverlay = document.querySelector('.overlay')
 
 
-let burgerReveal = document.getElementById('burger')
-let crossReveal = document.getElementById('cross')
+let burgerBtn = document.getElementById('burger')
+let navShow = document.getElementById('navigator')
 revealModal.addEventListener('click', () => {
         showModal.style.display = "block";
         showOverlay.style.display = "block";
@@ -15,6 +15,6 @@ closeModal.addEventListener('click', () => {
     showOverlay.style.display = "none";
 })
 
-burgerReveal.addEventListener('click', () => {
-    
+burgerBtn.addEventListener('click', () => {
+    navShow.classList.toggle('active')
 })

@@ -494,7 +494,9 @@ option {
     transform: translate(-50%, -50%); /* Centrez complètement le contenu */
     display: none;
 }
-
+#burger {
+    user-select: none;
+}
 
 
 /* ########----RESPONSIVE----########## */
@@ -509,8 +511,51 @@ option {
         background: lightblue;
         transform: scale(0.9);
     }
-    nav {
+    #navigator {
+        text-align: center;
+        position: absolute;
+    }
+    .menu {
+        position: absolute;
+        top:  15%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--color2);
         display: none;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .deroulant:hover .menu {
+        display: block;
+        opacity: 1;
+    }
+    .nav {  
+        height: 100%;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.507);
+        z-index: 7000;
+    }
+    .nav.active {
+        height: auto;
+        display: block;
+    }
+    nav  {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 25px 0;
+    }
+    nav li a {
+        margin: 10px;
     }
     .ctaTitle {
         max-width: 450px;
