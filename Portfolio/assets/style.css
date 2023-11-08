@@ -488,8 +488,8 @@ option {
 
 #showModal {
     z-index: 6000;
-    position: fixed; /* Changez la position en "fixed" pour qu'elle reste fixe par rapport à la fenêtre du navigateur */
-    top: 50%; /* Centrez verticalement */
+    position: absolute; /* Changez la position en "fixed" pour qu'elle reste fixe par rapport à la fenêtre du navigateur */
+    top: 575%; /* Centrez verticalement */
     left: 50%; /* Centrez horizontalement */
     transform: translate(-50%, -50%); /* Centrez complètement le contenu */
     display: none;
