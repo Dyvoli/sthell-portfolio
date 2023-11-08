@@ -475,25 +475,25 @@ option {
     background: black;
 }
 /* ########----SCRIPT----########## */
-.overlay {
+/* .overlay {
     z-index: 5;
-    position: fixed; /* Changez la position en "fixed" pour qu'elle reste fixe par rapport à la fenêtre du navigateur */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.673);
     display: none;
-}
+} */
 
-#showModal {
+/* #showModal {
     z-index: 6000;
-    position: fixed; /* Changez la position en "fixed" pour qu'elle reste fixe par rapport à la fenêtre du navigateur */
-    top: 50%; /* Centrez verticalement */
-    left: 50%; /* Centrez horizontalement */
-    transform: translate(-50%, -50%); /* Centrez complètement le contenu */
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     display: none;
-}
+} */
 #burger {
     user-select: none;
 }
