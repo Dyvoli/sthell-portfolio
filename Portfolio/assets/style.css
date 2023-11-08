@@ -517,8 +517,8 @@ option {
     }
     .menu {
         position: absolute;
-        top:  15%;
-        left: 50%;
+        top:  21%;
+        left: 70%;
         transform: translateX(-50%);
         background: var(--color2);
         display: none;
@@ -528,7 +528,7 @@ option {
         display: block;
         opacity: 1;
     }
-    .nav {  
+    .nav {   
         height: 100%;
         position: fixed;
         top: 20%;
