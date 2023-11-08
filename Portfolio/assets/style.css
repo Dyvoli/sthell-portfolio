@@ -475,7 +475,7 @@ option {
     background: black;
 }
 /* ########----SCRIPT----########## */
-/* .overlay {
+.overlay {
     z-index: 5;
     position: fixed;
     top: 0;
@@ -484,19 +484,19 @@ option {
     height: 100vh;
     background: rgba(0, 0, 0, 0.673);
     display: none;
-} */
+} 
 
-/* #showModal {
+#showModal {
     z-index: 6000;
     position: fixed; 
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     display: none;
-} */
-/* #burger {
+}
+#burger {
     user-select: none;
-} */
+}
 
 
 /* ########----RESPONSIVE----########## */
