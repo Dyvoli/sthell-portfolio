@@ -33,6 +33,7 @@
     font-family: "Onest";
 }
 a {
+    text-align: left;
     letter-spacing: 0.5px;
     font-weight: 600;
     color: #ffdbac;
@@ -50,4 +51,124 @@ header {
 span {
     font-size: 2.9rem;
     color: #ffd296;
+}
+section {
+    padding: 20px 20%;
+}
+.animal-flex {
+    display: flex;
+    align-items: center;
+}
+.animal_1 h2{
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_1-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_2 h2{
+    text-align: right;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_2-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_3 h2{
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_3-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_4 h2{
+    text-align: right;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_4-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_5 h2{
+    text-align: left;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_5-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_6 h2{
+    text-align: right;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_6-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_7 h2{
+    text-align: left;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_7-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_8 h2{
+    text-align: right;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_8-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_9 h2{
+    text-align: left;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_9-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.animal_10 h2{
+    text-align: right;
+    margin: 0 15px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+}
+.animal_10-content {
+    margin: 0 15px;
+    text-align: justify;
+}
+.box-animal img {
+    margin: 0 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    transition: .2s ease;
+}
+.box-animal img:hover {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    transform: scale(1.1);
 }
